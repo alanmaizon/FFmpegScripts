@@ -43,9 +43,9 @@ Each MP3 in Recordings will be normalized and padded, replacing the original fil
 
 The script uses a two-pass loudness normalization workflow:
  
-	• 1.	First pass measures integrated loudness, loudness range, and true peak.
-	• 2.	Second pass applies normalization based on those measurements, ensuring precise LUFS and peak compliance.
-	• 3.	An adelay filter inserts 4 seconds of silence at the start.
+	• First pass measures integrated loudness, loudness range, and true peak.
+	• Second pass applies normalization based on those measurements, ensuring precise LUFS and peak compliance.
+	• An adelay filter inserts 4 seconds of silence at the start.
 
 ## Notes
 	•	The script overwrites your original MP3s. If you want to keep the raw versions, back them up before running.
