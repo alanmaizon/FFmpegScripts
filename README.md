@@ -37,7 +37,7 @@ The script is designed to normalize audio loudness and add consistent silence pa
 
 
 
-Each MP3 in Sacred Space will be normalized and padded, replacing the original file.
+Each MP3 in Recordings will be normalized and padded, replacing the original file.
 
 ## How It Works
 
